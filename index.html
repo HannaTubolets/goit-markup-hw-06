@@ -903,7 +903,10 @@
     <!-- Modal /Backdrop -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form class=".js-speaker-form" action="data">
+        <form
+          class=".js-speaker-form"
+          action="data"
+        >
           <h2 class="modal-heading">
             Залиште свої дані, ми вам передзвонимо
           </h2>
@@ -962,11 +965,10 @@
             </svg>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field modal-textarea">
             <label for="comment">Коментар</label>
             <textarea
               id="comment"
-              rows="6"
               placeholder="Введіть текст"
             ></textarea>
           </div>
@@ -999,7 +1001,7 @@
 
           <button
             type="submit"
-            class="hero-button"
+            class="hero-button modal-btn"
           >
             Відправити
           </button>

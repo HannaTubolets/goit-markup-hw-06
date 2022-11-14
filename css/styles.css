@@ -767,6 +767,10 @@ body {
   margin-bottom: 10px;
 }
 
+.modal-textarea {
+  margin:0;
+}
+
 .modal-field > input,
 .modal-field > textarea {
   outline: 0;
